@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="sceneMain" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LogoutController">
+   <children>
+      <Label layoutX="215.0" layoutY="46.0" text="Bienvendios a POO-limillonarios" />
+      <Label layoutX="190.0" layoutY="99.0" text="Seleccione una de las opciones siguientes" />
+      <Label layoutX="172.0" layoutY="169.0" text="Configuraciones" />
+      <Label layoutX="172.0" layoutY="294.0" text="Salir" />
+      <Label layoutX="172.0" layoutY="253.0" text="Reporte" />
+      <Label layoutX="172.0" layoutY="213.0" text="Nuevo Juego" />
+      <Button layoutX="360.0" layoutY="165.0" mnemonicParsing="false" onAction="#goConf" text="Configuraciones" />
+      <Button fx:id="logoutButton" layoutX="359.0" layoutY="290.0" mnemonicParsing="false" onAction="#logout" prefHeight="26.0" prefWidth="102.0" text="Salir" />
+      <Button layoutX="360.0" layoutY="249.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="102.0" text="Reporte" />
+      <Button layoutX="359.0" layoutY="209.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="102.0" text="Nuevo Juego" />
+   </children>
+</AnchorPane>
